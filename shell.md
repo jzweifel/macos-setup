@@ -25,7 +25,8 @@
    - While in your `~/.zshrc`, add the following: `export DEFAULT_USER=$(whoami)` -- this will hide the `user@hotname` portion in the prompt.
    - install [Meslo LG M Regular for Powerline](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
    - Set the font in iTerm 2: `⌘,` -> Preferences -> Profiles -> Text -> Change Font, I prefer `Meslo LG M for Powerline`, 14pt
-   - Just to make sure all the changes took effect, turn iTerm2 off and turn it on again (insert IT Crowd gif)
+   - Just to make sure all the changes took effect, turn iTerm2 off and turn it on again
+   ![it-crowd](./media/it-crowd.gif)
 5. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
    - `brew install zsh-autosuggestions`
    - Add the following to your `.zshrc`: `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
