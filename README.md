@@ -3,6 +3,7 @@
 This place serves to document how I set up my local development environments on Mac OS. Feel free to fork and make your own, and if you make something awesome, please share it back!
 
 ## [Shell](./shell.md)
+## [Other](./other.md)
 
 ### Shortcuts
 
