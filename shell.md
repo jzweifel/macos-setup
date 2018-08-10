@@ -1,5 +1,7 @@
 # Rockstar Shell 🎸
 
+![Shell](./media/shell.png)
+
 1. [Homebrew](https://brew.sh/)
    - Open Terminal
    - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
