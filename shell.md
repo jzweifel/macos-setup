@@ -26,7 +26,7 @@
    - install [Meslo LG M Regular for Powerline](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
    - Set the font in iTerm 2: `⌘,` -> Preferences -> Profiles -> Text -> Change Font, I prefer `Meslo LG M for Powerline`, 14pt
    - Just to make sure all the changes took effect, turn iTerm2 off and turn it on again
-   ![it-crowd](./media/it-crowd.gif)
+     ![it-crowd](./media/it-crowd.gif)
 5. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
    - `brew install zsh-autosuggestions`
    - Add the following to your `.zshrc`: `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
@@ -45,8 +45,8 @@
    - https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
    - https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
 
-
 ## Aliases
+
 Any aliases can either go directly in `~/.zshrc` or in another file that is sourced in your `~/.zshrc`, example: `source ~/.zsh_aliases`
 
 - Assuming a directory which contains only git repositories as subdirectories; perform a `git fetch -p` in all subdirectories: `alias fetchall="ls -d */ | xargs -P10 -t -I{} git -C {} fetch -p"`
