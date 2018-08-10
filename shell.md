@@ -43,3 +43,9 @@
    - https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083
    - https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
    - https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
+
+
+## Aliases
+Any aliases can either go directly in `~/.zshrc` or in another file that is sourced in your `~/.zshrc`, example: `source ~/.zsh_aliases`
+
+- Assuming a directory which contains only git repositories as subdirectories; perform a `git fetch -p` in all subdirectories: `alias fetchall="ls -d */ | xargs -P10 -t -I{} git -C {} fetch -p"`
