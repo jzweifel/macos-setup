@@ -9,6 +9,7 @@
 - In Finder:
   - `⌘⇧D` to open Desktop
   - `⌘⇧H` to open Home
+  - `⌘⇧.` to toggle show hidden files
 
 ### Screenshots
 
@@ -17,4 +18,4 @@
 
 ### Show Hidden Files
 
-- Type this into your terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
+- Type this into your terminal: `defaults write com.apple.finder AppleShowAllFiles YES && killall Finder`
