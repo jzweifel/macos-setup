@@ -39,7 +39,11 @@
    2. Add `"terminal.integrated.shell.osx": "zsh",` to ensure we're using zsh
    3. Add `"terminal.integrated.fontFamily": "Meslo LG M for Powerline",` so we have the right font family
    4. Also add `"terminal.integrated.fontSize": 14,` to set the font size
-8. Resources for further customization:
+8. Other tools
+   - [TLDR pages](http://tldr.sh/) -- community-sourced simplified `man` pages with practical examples
+     - Installation: `npm install -g tldr`
+     - Usage: `tldr tar`, `tldr fly`, `tldr grep`
+9. Resources for further customization:
    - https://gist.github.com/kevin-smets/8568070
    - https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083
    - https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
