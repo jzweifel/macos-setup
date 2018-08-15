@@ -40,7 +40,10 @@
    3. Add `"terminal.integrated.fontFamily": "Meslo LG M for Powerline",` so we have the right font family
    4. Also add `"terminal.integrated.fontSize": 14,` to set the font size
 8. Other tools
-   - [TLDR pages](http://tldr.sh/) -- community-sourced simplified `man` pages with practical examples
+   - [TLDR pages](http://tldr.sh/)
+     - Do you ever download a `tar.gz` and then immediately forget how to extract it? Some would tell you to read the man pages, I would say:
+     ![aint-nobody-got-time-for-that](./media/aint-nobody.gif)
+     Instead, use `tldr`! [TLDR pages](http://tldr.sh/) are simplified and community-driven man pages. Check it out!
      - Installation: `npm install -g tldr`
      - Usage: `tldr tar`, `tldr fly`, `tldr grep`
 9. Resources for further customization:
