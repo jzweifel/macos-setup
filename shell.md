@@ -8,8 +8,8 @@
 2. [iTerm2](https://www.iterm2.com/)
    - `$ brew cask install iterm2`
    - Close Terminal forever and open iterm2 😁
-   - `⌘,` -> Preferences -> Appearance -> Theme, change it to `Dark` because cool devs use only dark themes 😎
-   - Let's get even cooler, `⌘,` -> Preferences -> Profiles -> Colors -> Color Presets... and choose `Tango Dark`
+   - `⌘,` -> Appearance -> Theme, change it to `Dark` because cool devs use only dark themes 😎
+   - Let's get even cooler, `⌘,` -> Profiles -> Colors -> Color Presets... and choose `Tango Dark`
    - Shortcuts
      - `⌘⇧D` split horizontally
      - `⌘D` split vertically
@@ -24,7 +24,7 @@
    - edit `~/.zshrc` and set `ZSH_THEME="agnoster"`, or [choose another theme](https://zshthem.es/)
    - While in your `~/.zshrc`, add the following: `export DEFAULT_USER=$(whoami)` -- this will hide the `user@hotname` portion in the prompt.
    - install [Meslo LG M Regular for Powerline](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
-   - Set the font in iTerm 2: `⌘,` -> Preferences -> Profiles -> Text -> Change Font, I prefer `Meslo LG M for Powerline`, 14pt
+   - Set the font in iTerm 2: `⌘,` -> Profiles -> Text -> Change Font, I prefer `Meslo LG M for Powerline`, 14pt
    - Just to make sure all the changes took effect, turn iTerm2 off and turn it on again
      ![it-crowd](./media/it-crowd.gif)
 5. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -33,6 +33,11 @@
 6. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
    - `brew install zsh-syntax-highlighting`
    - Add `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` to the end of your `~/.zshrc` file
+7. Make it even cooler by adding a Quake-style drop down terminal.
+   - `⌘,` -> Keys -> Create a Dedicated Hotkey Window...
+   - I like to assign it to a double-tap of `^ Control`
+   - Note that this will create a copy of your default profile specifically for the hotkey window. I like to increase the opacity of the window slightly:
+     - ⌘,` -> Profiles -> Hotkey Window -> Window -> Opacity. It is a slider, so best to adjust this while the hotkey window is open!
 7. Integrate your slick new shell into VS Code
    - Since you are a rockstar, you're likely using VS Code. Add the following to your preferences to make sure your new customizations look just as nice in the VS Code integrated terminal.
    1. Go to settings: `⌘,`
